@@ -9,10 +9,10 @@ import { GrContactInfo } from "react-icons/gr";
 const Contact = () => {
   return (
     <div className={classes.Contact}>
-      <Fade left>
-        <div className={classes.contact__content}>
-          <h1>Nous contacter</h1>
-          <Form />
+      <div className={classes.contact__content}>
+        <h1>Nous contacter</h1>
+        <Form />
+        <Fade left>
           <div className={classes.contact__content__title}>
             <h3>Nos coordonées</h3>
             <GrContactInfo className={classes.contact__content__title__cont} />
@@ -39,8 +39,8 @@ const Contact = () => {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           />
-        </div>
-      </Fade>
+        </Fade>
+      </div>
     </div>
   );
 };

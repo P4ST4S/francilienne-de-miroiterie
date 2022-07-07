@@ -1,0 +1,12 @@
+@import "../styles/index.scss";
+
+.goTop {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  height: 40px;
+  font-size: 5rem;
+  z-index: 100;
+  cursor: pointer;
+  color: $dark;
+}

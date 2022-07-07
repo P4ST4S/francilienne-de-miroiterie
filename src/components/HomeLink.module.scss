@@ -1,0 +1,57 @@
+@import "../styles/index.scss";
+
+.homelink {
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 3em;
+    &__icons {
+      font-size: 6rem;
+      ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        @include breakpoint-mid(md) {
+          flex-direction: row;
+        }
+        li {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          h5 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.4em;
+          }
+          a {
+            display: flex;
+            position: relative;
+            color: inherit;
+            margin: 0.2em 0.3em;
+            @include breakpoint(md) {
+              margin: 0.2em 0.5em;
+            }
+
+            padding: 0.5em;
+            background: linear-gradient(rgba($primary, 0.5), $primary);
+            border-radius: 50%;
+            transition: 0.3s ease all;
+            &:hover {
+              transform: scale(1.2);
+              color: $red;
+              fill: $red;
+            }
+            &:active {
+              transform: scale(1.5);
+              color: rgba($red, 0.2);
+            }
+          }
+        }
+      }
+    }
+  }
+}
