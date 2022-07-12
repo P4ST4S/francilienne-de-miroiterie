@@ -4,7 +4,6 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 
 import classes from "./Header.module.scss";
-import logoGrand from "../medias/logo-grand.JPG";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -43,7 +42,11 @@ const Header = () => {
 
   return (
     <>
-      <img className={classes.img} src={logoGrand} alt="header logo" />
+      <img
+        className={classes.img}
+        src="medias/logo-grand.JPG"
+        alt="header logo"
+      />
       <header className={classes.header}>
         <div className={classes.header__content}>
           <h2 className={classes.header__content__logo}>
@@ -80,7 +83,7 @@ const Header = () => {
                   STORES VOLETS
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   exact
                   to="/verandas-pergolas"
@@ -88,7 +91,7 @@ const Header = () => {
                 >
                   VERANDAS PERGOLAS
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
             <button onClick={contactClickHandler}>Contact</button>
           </nav>

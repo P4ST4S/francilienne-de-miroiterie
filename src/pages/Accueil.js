@@ -1,27 +1,24 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import classes from "./Accueil.module.scss";
-import banner from "../medias/home-banner.JPG";
-import descriptionOne from "../medias/facade.jpg";
-import descriptionTwo from "../medias/hermes.JPG";
-import descriptionThree from "../medias/maps.png";
-import descriptionFour from "../medias/robot-crop.JPEG";
 import HomeLink from "../components/HomeLink";
-import ButtonToTop from "../components/ButtonToTop";
+import classes from "./Accueil.module.scss";
+import Video from "../components/Video";
 
 const Accueil = () => {
   return (
     <div className={classes.home}>
       <div className={classes.home__content}>
-        <ButtonToTop />
         <Fade left>
           <div className={classes.home__content__title}>
             <h2>
-              Miroterie | Stores | Fenêtres | Volets | Vérandas | Pergolas
+              Miroiterie | Stores | Fenêtres | Volets | Vérandas | Pergolas
             </h2>
           </div>
           <div className={classes.home__content__banner}>
-            <img src={banner} alt="Bannière de la page d'accueil du site" />
+            <img
+              src="medias/home-banner.JPG"
+              alt="Bannière de la page d'accueil du site"
+            />
           </div>
           <div className={classes.home__content__title}>
             <h3>Qui sommes-nous ?</h3>
@@ -37,12 +34,12 @@ const Accueil = () => {
               le Val de Marne, la Société s’installe à Marne La Vallée dans des
               locaux plus vastes et mieux adaptés à notre activité.
             </p>
-            <img src={descriptionOne} alt="Façade du showroom" />
+            <img src="medias/facade.jpg" alt="Façade du showroom" />
           </Fade>
         </div>
         <div className={classes.home__content__description__left}>
           <Fade left>
-            <img src={descriptionTwo} alt="Chantier Hermes" />
+            <img src="medias/hermes.JPG" alt="Chantier Hermes" />
             <p>
               <h4>Clientèle :</h4>
               Notre clientèle est constituée à 70% d’activité tertiaire et
@@ -76,12 +73,15 @@ const Accueil = () => {
               <br /> A 5kms de Disney Land Paris Proximité immédiate Autoroute
               A4 / Francilienne A104 / A1 Chantiers ponctuels au niveau national
             </p>
-            <img src={descriptionThree} alt="Carte Ile de France" />
+            <img src="medias/maps.jpg" alt="Carte Ile de France" />
           </Fade>
         </div>
         <div className={classes.home__content__description__left}>
           <Fade left>
-            <img src={descriptionFour} alt="Robot de pose de la société" />
+            <img
+              src="medias/robot-crop.JPEG"
+              alt="Robot de pose de la société"
+            />
             <p>
               <h4>Appareils de levage</h4>
               SL 608: appareil de levage électrique avec une capacité de 600
@@ -90,6 +90,11 @@ const Accueil = () => {
             </p>
           </Fade>
         </div>
+        <Video
+          width="100%"
+          height="auto"
+          source="medias/toutes-gammes-mp4.mp4"
+        />
         <Fade bottom>
           <HomeLink />
         </Fade>

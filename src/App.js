@@ -9,13 +9,12 @@ import Miroiterie from "./pages/Miroiterie";
 import Verandas from "./pages/Verandas";
 import CGV from "./pages/CGV";
 import LegalMentions from "./pages/LegalMentions";
-import ScrollToTop from "./components/ScrollToTop";
+import Avis from "./pages/Avis";
 
 function App() {
   return (
     <Router>
       <Layout>
-        <ScrollToTop />
         <Routes>
           <Route exact path="/" element={<Accueil />} />
           <Route exact path="/fenetres-portes" element={<Fenetres />} />
@@ -23,6 +22,7 @@ function App() {
           <Route exact path="/miroiterie" element={<Miroiterie />} />
           <Route exact path="/stores-volets" element={<Stores />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/avis-eldo" element={<Avis />} />
           <Route exact path="/conditions-generales-ventes" element={<CGV />} />
           <Route exact path="/mentions-legales" element={<LegalMentions />} />
         </Routes>

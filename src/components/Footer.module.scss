@@ -51,6 +51,7 @@
             }
             &:last-child {
               cursor: pointer;
+              font-weight: bold;
               border-radius: $borderRadius;
               font-size: 1rem;
               font-family: inherit;
@@ -71,6 +72,9 @@
                   rgba($primary, 0.3)
                 );
                 color: $primary;
+              }
+              a {
+                display: block;
               }
             }
             padding: 0.1rem 0;

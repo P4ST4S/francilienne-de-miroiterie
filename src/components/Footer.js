@@ -1,14 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import { AiFillFacebook } from "react-icons/ai";
-// import { RiContactsFill } from "react-icons/ri";
-// import { SiGooglemaps } from "react-icons/si";
 
 import classes from "./Footer.module.scss";
-
-// import logoFrancilienne from "../medias/logo-francilienne.jpg";
-import logoStoriste from "../medias/logo-storiste.jpg";
-import logoQualibat from "../medias/logo-qualibat.png";
 
 const Footer = () => {
   return (
@@ -43,14 +36,19 @@ const Footer = () => {
                   Stores et Volets
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink exact to="verandas-pergolas">
                   Verandas et Pergolas
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink exact to="/contact">
                   Nous contacter
+                </NavLink>
+              </li>
+              <li>
+                <NavLink exact to="/avis-eldo">
+                  Nos avis
                 </NavLink>
               </li>
             </ul>
@@ -59,10 +57,19 @@ const Footer = () => {
           <div className={classes.footer__content__row__column}>
             <ul>
               <li>
-                <img src={logoQualibat} alt="Logo Qualibat" />
+                <img src="medias/logo-qualibat.png" alt="Logo Qualibat" />
               </li>
               <li>
-                <img src={logoStoriste} alt="Logo Storiste de France" />
+                <a
+                  href="https://www.storistes-de-france.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="medias/logo-storiste.jpg"
+                    alt="Logo Storiste de France"
+                  />
+                </a>
               </li>
               <li></li>
             </ul>

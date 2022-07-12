@@ -1,14 +1,12 @@
 import React from "react";
 import { Fade } from "react-reveal";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import ButtonToTop from "../components/ButtonToTop";
 
 import classes from "./CGV.module.scss";
 
 const CGV = () => {
   return (
     <div className={classes.cgv}>
-      <ButtonToTop />
       <Fade left>
         <h1>CONDITIONS GENERALES DE VENTE ET DE POSE</h1>
         <summary>

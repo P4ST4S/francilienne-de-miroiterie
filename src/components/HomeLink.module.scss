@@ -35,13 +35,17 @@
             @include breakpoint(md) {
               margin: 0.2em 0.5em;
             }
-
             padding: 0.5em;
             background: linear-gradient(rgba($primary, 0.5), $primary);
             border-radius: 50%;
             transition: 0.3s ease all;
             &:hover {
-              transform: scale(1.2);
+              transform: scale(1.1);
+              background: linear-gradient(
+                rgba($primary, 0.5),
+                rgba($primary, 0.2)
+              );
+
               color: $red;
               fill: $red;
             }
