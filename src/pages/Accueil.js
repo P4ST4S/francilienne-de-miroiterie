@@ -96,6 +96,9 @@ const Accueil = () => {
           source="medias/toutes-gammes-mp4.mp4"
         />
         <Fade bottom>
+          <div className={classes.home__content__title}>
+            <h3>Nos produits</h3>
+          </div>
           <HomeLink />
         </Fade>
       </div>

@@ -16,11 +16,7 @@ const Stores = () => {
         <div className={classes.stores__content__description__right}>
           <Fade right>
             <p>
-              Et eodem impetu Domitianum praecipitem per scalas itidem funibus
-              constrinxerunt, eosque coniunctos per ampla spatia civitatis acri
-              raptavere discursu. iamque artuum et membrorum divulsa conpage
-              superscandentes corpora mortuorum ad ultimam truncata deformitatem
-              velut exsaturati mox abiecerunt in flumen.
+              <h2>Store banne vogue 3 bras à leds</h2>
             </p>
             <img
               src="medias/stores-volets/banne-vogue-3-bras-a-leds-jph-1252-jpg.jpg"
@@ -35,12 +31,7 @@ const Stores = () => {
               alt="Store Saint Thibault"
             />
             <p>
-              Batnae municipium in Anthemusia conditum Macedonum manu priscorum
-              ab Euphrate flumine brevi spatio disparatur, refertum mercatoribus
-              opulentis, ubi annua sollemnitate prope Septembris initium mensis
-              ad nundinas magna promiscuae fortunae convenit multitudo ad
-              commercanda quae Indi mittunt et Seres aliaque plurima vehi terra
-              marique co nsueta.
+              <h2>Store vertical et horizontal sur vérandas</h2>
             </p>
           </Fade>
         </div>
@@ -59,15 +50,7 @@ const Stores = () => {
         <div className={classes.stores__content__description__right}>
           <Fade right>
             <p>
-              Cuius acerbitati uxor grave accesserat incentivum, germanitate
-              Augusti turgida supra modum, quam Hannibaliano regi fratris filio
-              antehac Constantinus iunxerat pater, Megaera quaedam mortalis,
-              inflammatrix saevientis adsidua, humani cruoris avida nihil mitius
-              quam maritus; qui paulatim eruditiores facti processu temporis ad
-              nocendum per clandestinos versutosque rumigerulos conpertis
-              leviter addere quaedam male suetos falsa et placentia sibi
-              discentes, adfectati regni vel artium nefandarum calumnias
-              insontibus adfligebant.
+              <h2>Stores bateaux verticaux</h2>
             </p>
             <img
               src="medias/stores-volets/bateaux-verticaux-jpg.jpg"
@@ -82,13 +65,7 @@ const Stores = () => {
               alt="Store Saint Thibault"
             />
             <p>
-              Dum apud Persas, ut supra narravimus, perfidia regis motus agitat
-              insperatos, et in eois tractibus bella rediviva consurgunt, anno
-              sexto decimo et eo diutius post Nepotiani exitium, saeviens per
-              urbem aeternam urebat cuncta Bellona, ex primordiis minimis ad
-              clades excita luctuosas, quas obliterasset utinam iuge silentium!
-              ne forte paria quandoque temptentur, plus exemplis generalibus
-              nocitura quam delictis.
+              <h2>Stores à enroulement clip'n'roll</h2>
             </p>
           </Fade>
         </div>

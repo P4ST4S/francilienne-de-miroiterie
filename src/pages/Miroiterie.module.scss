@@ -18,7 +18,7 @@
       h3 {
         border-bottom: 0.2em solid $primary;
       }
-      border-bottom: 0.2em solid $dark;
+      border-bottom: 0.2em solid $primary;
     }
     &__banner {
       width: 100%;
@@ -53,7 +53,7 @@
         @include breakpoint-mid(md) {
           padding: 4em;
           flex-direction: row;
-          justify-content: flex-start;
+          justify-content: space-between;
         }
         & > img {
           height: auto;
@@ -65,9 +65,13 @@
           }
         }
         & > p {
+          min-width: 40%;
           padding-bottom: 1.5em;
           @include breakpoint-mid(md) {
             padding-right: 2em;
+          }
+          @include breakpoint(md) {
+            min-width: 60%;
           }
         }
       }
@@ -83,9 +87,9 @@
         @include breakpoint-mid(md) {
           padding: 4em;
           flex-direction: row;
-          justify-content: flex-start;
+          justify-content: space-between;
         }
-        & > img {
+        & img {
           height: auto;
           width: 100%;
           border-radius: 50px;
@@ -94,10 +98,15 @@
             width: auto;
           }
         }
-        & > p {
+        & p {
+          text-align: right;
+          min-width: 40%;
           padding-bottom: 1.5em;
           @include breakpoint-mid(md) {
-            padding-left: 2em;
+            padding: 0 2em;
+          }
+          @include breakpoint(md) {
+            min-width: 60%;
           }
         }
       }
