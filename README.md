@@ -1,4 +1,4 @@
-# The Harbor website
+# The FRANCILIENNE DE MIROITERIE website
 
 This repo houses the assets used to build the FRANCILIENNE DE MIROITERIE website, available at https://francilienne-de-miroiterie.com.
 
@@ -20,7 +20,7 @@ The CSS for the site is built from [Sass](https://sass-lang.com) installed with 
 
 The Harbor website is published automatically on the [OVH](https://www.ovhcloud.com/fr/web-hosting/) platform. Whenever changes are merged, the site is re-built and re-deployed, usually within about one minute.
 
-## Run the Harbor website locally
+## Run the FRANCILIENNE DE MIROITERIE website locally
 
 ### Step 1: Clone project
 
