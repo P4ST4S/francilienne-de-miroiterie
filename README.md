@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# The Harbor website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo houses the assets used to build the FRANCILIENNE DE MIROITERIE website, available at https://francilienne-de-miroiterie.com.
 
-## Available Scripts
+## Tools
 
-In the project directory, you can run:
+The website is built and developed using the [React](https://fr.reactjs.org/) framework with `create-react-app`.
 
-### `npm start`
+Instructions for installing React can be found [here](https://fr.reactjs.org/tutorial/tutorial.html). Use the version of Hugo specified by the `react` environment variable in the [`package.json`](./package.json) configuration file.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Website content
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The content for the [FRANCILIENNE DE MIROITERIE](https://francilienne-de-miroiterie.com) is in this repo.
 
-### `npm test`
+### CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The CSS for the site is built from [Sass](https://sass-lang.com) installed with [`node-sass`](https://www.npmjs.com/package/node-sass).
 
-### `npm run build`
+## Publishing the website
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Harbor website is published automatically on the [OVH](https://www.ovhcloud.com/fr/web-hosting/) platform. Whenever changes are merged, the site is re-built and re-deployed, usually within about one minute.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Run the Harbor website locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Step 1: Clone project
 
-### `npm run eject`
+```sh
+git clone https://github.com/P4ST4S/francilienne-de-miroiterie.git
+cd website
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Step 2: Install npm dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm i
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Step 3: Run with npm
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm start
+```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This starts up the local Hugo server on http://localhost:3000. As you make changes, the site refreshes automatically in your browser.

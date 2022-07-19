@@ -75,7 +75,13 @@ const Form = () => {
                 type="tel"
                 placeholder="Téléphone"
                 autoComplete="none"
-                {...register("tel", { minLength: 6, maxLength: 12 })}
+                {...register("tel", {
+                  minLength: 6,
+                  maxLength: 12,
+                  pattern:
+                    // eslint-disable-next-line
+                    /^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$/i,
+                })}
                 disabled={successSubmit}
               />
               {errors.tel ? (
