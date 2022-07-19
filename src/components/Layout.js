@@ -5,7 +5,7 @@ import ButtonToTop from "./ButtonToTop";
 import ScrollToTop from "./ScrollToTop";
 import EldoReview from "./EldoReview";
 
-import classes from "./Layout.module.scss";
+import classes from "../styles/components/Layout.module.scss";
 
 const Layout = ({ children }) => {
   return (

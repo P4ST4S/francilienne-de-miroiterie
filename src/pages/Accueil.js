@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import HomeLink from "../components/HomeLink";
-import classes from "./Accueil.module.scss";
+import classes from "../styles/pages/Accueil.module.scss";
 import Video from "../components/Video";
 
 const Accueil = () => {

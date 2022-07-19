@@ -1,6 +1,6 @@
 import React from "react";
 import { Fade } from "react-reveal";
-import classes from "./Miroiterie.module.scss";
+import classes from "../styles/pages/Miroiterie.module.scss";
 
 const Miroiterie = () => {
   return (

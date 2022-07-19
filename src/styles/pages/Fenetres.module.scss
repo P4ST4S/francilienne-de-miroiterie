@@ -1,0 +1,115 @@
+@import "../index.scss";
+
+.fenetres {
+  &__content {
+    overflow-x: hidden;
+    font-size: 1.3em;
+    &__title {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 3rem;
+      font-size: 0.85em;
+      @include breakpoint-low(md) {
+        font-size: 1.3em;
+      }
+      h3 {
+        border-bottom: 0.2em solid $primary;
+      }
+      border-bottom: 0.2em solid $primary;
+    }
+    &__banner {
+      width: 100%;
+      overflow: hidden;
+      height: 200px;
+      @include breakpoint-low(md) {
+        height: 400px;
+      }
+      & > img {
+        position: relative;
+        bottom: 60px;
+        width: 100%;
+        height: auto;
+        @include breakpoint-mid(md) {
+          bottom: 200px;
+        }
+        @include breakpoint(md) {
+          bottom: 460px;
+        }
+      }
+    }
+    &__description {
+      &__right {
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &:not(:last-child) {
+          border-bottom: 1px solid $dark;
+        }
+        @include breakpoint-mid(md) {
+          padding: 4em;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        & > img {
+          height: auto;
+          width: 100%;
+          border-radius: 50px;
+          @include breakpoint-low(md) {
+            height: 400px;
+            width: auto;
+          }
+        }
+        & > p {
+          min-width: 40%;
+          padding-bottom: 1.5em;
+          @include breakpoint-mid(md) {
+            padding-right: 2em;
+          }
+          @include breakpoint(md) {
+            min-width: 60%;
+          }
+        }
+      }
+      &__left {
+        padding: 2em;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        &:not(:last-child) {
+          border-bottom: 1px solid $primary;
+        }
+        @include breakpoint-mid(md) {
+          padding: 4em;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        & img {
+          height: auto;
+          width: 100%;
+          border-radius: 50px;
+          @include breakpoint-low(md) {
+            height: 400px;
+            width: auto;
+          }
+        }
+        & p {
+          text-align: right;
+          min-width: 40%;
+          padding-bottom: 1.5em;
+          @include breakpoint-mid(md) {
+            padding: 0 2em;
+          }
+          @include breakpoint(md) {
+            min-width: 60%;
+          }
+        }
+      }
+    }
+  }
+}

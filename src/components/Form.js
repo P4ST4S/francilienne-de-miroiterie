@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import Zoom from "react-reveal/Zoom";
 import { send } from "emailjs-com";
-import classes from "./Form.module.scss";
+import classes from "../styles/components/Form.module.scss";
 import ReCAPTCHA from "react-google-recaptcha";
 
 const Form = () => {
@@ -75,9 +75,16 @@ const Form = () => {
                 type="tel"
                 placeholder="Téléphone"
                 autoComplete="none"
-                {...register("tel")}
+                {...register("tel", { minLength: 6, maxLength: 12 })}
                 disabled={successSubmit}
               />
+              {errors.tel ? (
+                <div className={classes.form__content__error}>
+                  Entrez un numéro de téléphone valide
+                </div>
+              ) : (
+                <></>
+              )}
             </div>
             <div className={classes.form__content__message}>
               <input

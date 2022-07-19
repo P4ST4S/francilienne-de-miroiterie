@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-reveal";
 import Video from "../components/Video";
-import classes from "./Stores.module.scss";
+import classes from "../styles/pages/Stores.module.scss";
 
 const Stores = () => {
   return (
@@ -38,22 +38,22 @@ const Stores = () => {
         <div className={classes.stores__content__description__image}>
           <Fade right>
             <img
-              src="medias/stores-volets/vogue-2-jpg.jpg"
-              alt="Store vogue, Storiste de France"
+              src="medias/stores-volets/volet-gplan2.jpg"
+              alt="Store Avantage gros plan 1"
             />
             <img
-              src="medias/stores-volets/vogue-zoom-5-jpg.JPG"
-              alt="Store vogue zoom, Storiste de France"
+              src="medias/stores-volets/volet-gplan1.JPG"
+              alt="Store Avantage gros plan 2"
             />
           </Fade>
         </div>
         <div className={classes.stores__content__description__right}>
           <Fade right>
             <p>
-              <h2>Stores bateaux verticaux</h2>
+              <h2>Stores Avantage</h2>
             </p>
             <img
-              src="medias/stores-volets/bateaux-verticaux-jpg.jpg"
+              src="medias/stores-volets/volet.jpg"
               alt="Store bateaux verticaux, Storiste de France"
             />
           </Fade>

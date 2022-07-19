@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 
-import classes from "./Header.module.scss";
+import classes from "../styles/components/Header.module.scss";
 
 const Header = () => {
   const navigate = useNavigate();

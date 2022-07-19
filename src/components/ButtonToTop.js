@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaArrowCircleUp } from "react-icons/fa";
-import classes from "./ButtonToTop.module.scss";
+import classes from "../styles/components/ButtonToTop.module.scss";
 
 const ButtonToTop = () => {
   const [showButton, setShowButton] = useState(false);

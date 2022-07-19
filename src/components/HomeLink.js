@@ -6,7 +6,7 @@ import { TbWindow } from "react-icons/tb";
 // import { BsFillDoorClosedFill } from "react-icons/bs";
 import { GiMirrorMirror } from "react-icons/gi";
 
-import classes from "./HomeLink.module.scss";
+import classes from "../styles/components/HomeLink.module.scss";
 
 const HomeLink = () => {
   return (

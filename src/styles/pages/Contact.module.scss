@@ -1,0 +1,52 @@
+@import "../index.scss";
+
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  &__content {
+    padding: 2rem;
+    h1 {
+      font-size: 2rem;
+    }
+    h3 {
+      padding-top: 1.5em;
+    }
+    ul {
+      list-style: none;
+      padding: 1.2em 0;
+    }
+    &__title {
+      display: flex;
+      flex-direction: row;
+      &__img {
+        position: relative;
+        top: 30px;
+        left: 5px;
+        font-size: 1.3em;
+      }
+      &__cont {
+        position: relative;
+        top: 26px;
+        left: 15px;
+        font-size: 2em;
+      }
+    }
+  }
+}
+
+.maps {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  left: -30px;
+  @include breakpoint-low(md) {
+    height: 500px;
+    left: 0;
+    width: 500px;
+  }
+  @include breakpoint-mid(md) {
+    height: 600px;
+    width: 60%;
+    left: calc(50% - 30%);
+  }
+}

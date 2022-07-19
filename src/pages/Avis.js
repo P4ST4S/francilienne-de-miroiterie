@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Avis.module.scss";
+import classes from "../styles/pages/Avis.module.scss";
 
 const Avis = () => {
   return (

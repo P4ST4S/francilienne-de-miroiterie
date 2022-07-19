@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./EldoReview.module.scss";
+import classes from "../styles/components/EldoReview.module.scss";
 
 const EldoReview = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Form from "../components/Form";
-import classes from "./Contact.module.scss";
+import classes from "../styles/pages/Contact.module.scss";
 
 import { SiGooglemaps } from "react-icons/si";
 import { GrContactInfo } from "react-icons/gr";

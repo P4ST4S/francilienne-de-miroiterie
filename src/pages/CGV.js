@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from "react-reveal";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-import classes from "./CGV.module.scss";
+import classes from "../styles/pages/CGV.module.scss";
 
 const CGV = () => {
   return (

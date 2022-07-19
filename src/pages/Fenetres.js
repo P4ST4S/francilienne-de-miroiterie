@@ -1,6 +1,6 @@
 import React from "react";
 import { Fade } from "react-reveal";
-import classes from "./Fenetres.module.scss";
+import classes from "../styles/pages/Fenetres.module.scss";
 
 const Fenetres = () => {
   return (
