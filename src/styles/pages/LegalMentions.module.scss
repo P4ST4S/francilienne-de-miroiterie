@@ -1,0 +1,32 @@
+@import "../index.scss";
+
+.lm {
+  &__content {
+    padding: 2em;
+    h1 {
+      padding: 1em 0;
+    }
+    summary {
+      padding-bottom: 1.5em;
+      a {
+        text-decoration: none;
+        color: inherit;
+        &:hover {
+          color: $primary;
+        }
+        &:active {
+          background-color: rgba($primary, 0.3);
+        }
+      }
+    }
+    p,
+    h3 {
+      padding: 0 1em;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0 1em;
+    }
+  }
+}
