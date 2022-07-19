@@ -4,7 +4,7 @@ This repo houses the assets used to build the FRANCILIENNE DE MIROITERIE website
 
 ## Tools
 
-The website is built and developed using the [React](https://fr.reactjs.org/) framework with `create-react-app`.
+The website is built and developed using the [React](https://fr.reactjs.org/) framework with [`create-react-app`](https://create-react-app.dev/).
 
 Instructions for installing React can be found [here](https://fr.reactjs.org/tutorial/tutorial.html). Use the version of Hugo specified by the `react` environment variable in the [`package.json`](./package.json) configuration file.
 
