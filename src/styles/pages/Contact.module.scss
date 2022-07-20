@@ -31,14 +31,20 @@
         font-size: 2em;
       }
     }
+    &__form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
 
 .maps {
+  overflow-x: hidden;
   position: relative;
-  width: 400px;
+  width: 101vw;
   height: 400px;
-  left: -30px;
+  left: -34px;
   @include breakpoint-low(md) {
     height: 500px;
     left: 0;

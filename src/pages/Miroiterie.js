@@ -8,7 +8,7 @@ const Miroiterie = () => {
       <div className={classes.miroiterie__content}>
         <div className={classes.miroiterie__content__title}>
           <Fade right>
-            <h2>Miroiteries</h2>
+            <h2>Miroiterie</h2>
           </Fade>
         </div>
         <div className={classes.miroiterie__content__description__left}>

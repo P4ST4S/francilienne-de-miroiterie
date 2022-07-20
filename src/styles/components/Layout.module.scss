@@ -1,6 +1,7 @@
 @import "../index.scss";
 
 .container {
+  overflow-x: hidden;
   min-height: calc(100vh - (#{$headerHeight} + 5rem));
   background: $bg;
 }

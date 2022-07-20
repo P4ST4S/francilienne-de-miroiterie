@@ -118,7 +118,7 @@ const Form = () => {
               </div>
             </Zoom>
             <ReCAPTCHA
-              sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+              sitekey="6LeLVMYgAAAAAHM1VE4t76V_qswlduIUPPu9cZO7"
               onChange={handleVerify}
               className={classes.form__content__captcha}
             />

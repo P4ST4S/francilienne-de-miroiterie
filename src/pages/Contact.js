@@ -11,7 +11,9 @@ const Contact = () => {
     <div className={classes.Contact}>
       <div className={classes.contact__content}>
         <h1>Nous contacter</h1>
-        <Form />
+        <div className={classes.contact__content__form}>
+          <Form />
+        </div>
         <Fade left>
           <div className={classes.contact__content__title}>
             <h3>Nos coordonées</h3>
