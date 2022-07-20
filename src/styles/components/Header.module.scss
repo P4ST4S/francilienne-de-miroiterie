@@ -1,12 +1,13 @@
 @import "../index.scss";
 
-.img {
+.headerBanner {
   position: relative;
-  height: 5rem;
-  width: auto;
   left: calc(50% - 150px);
+  height: 5rem;
+  img {
+    height: 5rem;
+  }
 }
-
 .header {
   background: $dark;
   width: 100%;

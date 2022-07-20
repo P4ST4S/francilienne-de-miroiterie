@@ -16,7 +16,7 @@ const Stores = () => {
         <div className={classes.stores__content__description__right}>
           <Fade right>
             <p>
-              <h2>Store banne vogue 3 bras à leds</h2>
+              <h2>Store banne Vogue 3 bras à leds</h2>
             </p>
             <img
               src="medias/stores-volets/banne-vogue-3-bras-a-leds-jph-1252-jpg.jpg"

@@ -7,12 +7,32 @@
   position: relative;
   width: 100%;
   &__content {
+    &__social {
+      // padding-top: 0.2em;
+      display: flex;
+      flex-direction: row;
+      font-size: 2em;
+      a {
+        color: inherit;
+        text-decoration: none;
+        &:hover {
+          color: $primary;
+          transform: scale(1.2);
+        }
+        &:active {
+          color: rgba($primary, 0.3);
+        }
+        transition: 0.3s ease all;
+      }
+    }
     &__row {
       position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      // align-items: center;
+      h4 {
+        padding-top: 1em;
+      }
       @include breakpoint(md) {
         flex-direction: row;
         justify-content: space-around;

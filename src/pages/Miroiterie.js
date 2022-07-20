@@ -18,14 +18,14 @@ const Miroiterie = () => {
               alt="Vitre et store Carlot Meudon"
             />
             <p>
-              <h2>Vitre et store</h2>
+              <h2>Vitrages et stores</h2>
             </p>
           </Fade>
         </div>
         <div className={classes.miroiterie__content__description__right}>
           <Fade right>
             <p>
-              <h2>Verrière avec multiple fenêtres</h2>
+              <h2>Verrière avec multiples fenêtres</h2>
             </p>
             <img
               src="medias/miroiterie/brassens-torcy.JPG"
@@ -47,7 +47,7 @@ const Miroiterie = () => {
         <div className={classes.miroiterie__content__description__right}>
           <Fade right>
             <p>
-              <h2>Verrière chantier Hermes</h2>
+              <h2>Verrière chantier Hermès</h2>
             </p>
             <img
               src="medias/miroiterie/verriere-gecina.jpeg"
@@ -62,7 +62,7 @@ const Miroiterie = () => {
               alt="Résultat chantier Paris Aéroport"
             />
             <p>
-              <h2>Chantier aéroport de Paris</h2>
+              <h2>Chantier Aéroport de Paris</h2>
             </p>
           </Fade>
         </div>

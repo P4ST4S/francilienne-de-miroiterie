@@ -20,23 +20,10 @@
       }
     }
     &__banner {
-      width: 100%;
-      overflow: hidden;
-      height: 200px;
-      @include breakpoint-low(md) {
-        height: 400px;
-      }
       & > img {
         position: relative;
-        bottom: 60px;
         width: 100%;
         height: auto;
-        @include breakpoint-mid(md) {
-          bottom: 200px;
-        }
-        @include breakpoint(md) {
-          bottom: 500px;
-        }
       }
     }
     &__description {

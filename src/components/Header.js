@@ -42,11 +42,9 @@ const Header = () => {
 
   return (
     <>
-      <img
-        className={classes.img}
-        src="medias/logo-grand.JPG"
-        alt="header logo"
-      />
+      <div className={classes.headerBanner}>
+        <img src="medias/logo-grand.JPG" alt="header logo" />
+      </div>
       <header className={classes.header}>
         <div className={classes.header__content}>
           <h2 className={classes.header__content__logo}>

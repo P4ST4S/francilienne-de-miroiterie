@@ -67,29 +67,6 @@ const Fenetres = () => {
           </Fade>
         </div>
         <div className={classes.fenetres__content__description__left}>
-          <Fade left>
-            <img
-              src="medias/fenetres-portes/lemonnier-sas-effage.jpg"
-              alt="Résultat chantier Lemonnier SAS Eiffage"
-            />
-            <p>
-              <h2>Porte vitré Lemonnier SAS Eiffage</h2>
-            </p>
-          </Fade>
-        </div>
-        <div className={classes.fenetres__content__description__right}>
-          <Fade right>
-            <p>
-              <h2>Marquise en verre mairie Thorigny</h2>
-            </p>
-            <img
-              src="medias/fenetres-portes/marquise-thorigny.jpg"
-              alt="Résultat chantier marquise mairie Thorigny"
-            />
-          </Fade>
-        </div>
-
-        <div className={classes.fenetres__content__description__left}>
           <Fade right>
             <img
               src="medias/fenetres-portes/porte-alu.JPG"
@@ -98,6 +75,17 @@ const Fenetres = () => {
             <p>
               <h2>Porte aluminium grise</h2>
             </p>
+          </Fade>
+        </div>
+        <div className={classes.fenetres__content__description__right}>
+          <Fade right>
+            <p>
+              <h2>Marquise en verre Mairie de Thorigny</h2>
+            </p>
+            <img
+              src="medias/fenetres-portes/marquise-thorigny.jpg"
+              alt="Résultat chantier marquise mairie Thorigny"
+            />
           </Fade>
         </div>
       </div>

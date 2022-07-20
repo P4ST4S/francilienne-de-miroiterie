@@ -3,6 +3,9 @@ import { NavLink } from "react-router-dom";
 
 import classes from "../styles/components/Footer.module.scss";
 
+import { AiFillInstagram } from "react-icons/ai";
+import { FaFacebookSquare } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <footer className={classes.footer}>
@@ -16,6 +19,23 @@ const Footer = () => {
               <li>Montévrain, 77144</li>
               <li>01 60 36 19 59</li>
             </ul>
+            <h4>Nous suivre</h4>
+            <div className={classes.footer__content__social}>
+              <a
+                href="https://instagram.com/fdm_montevrain?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiFillInstagram />
+              </a>
+              <a
+                href="https://fr-fr.facebook.com/francilienne.miroiterie"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaFacebookSquare />
+              </a>
+            </div>
           </div>
           {/* Column 2 */}
           <div className={classes.footer__content__row__column}>

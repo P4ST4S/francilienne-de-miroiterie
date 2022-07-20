@@ -5,6 +5,9 @@ import classes from "../styles/pages/Contact.module.scss";
 
 import { SiGooglemaps } from "react-icons/si";
 import { GrContactInfo } from "react-icons/gr";
+import { IoShareSocialSharp } from "react-icons/io5";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaFacebookSquare } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -23,6 +26,40 @@ const Contact = () => {
             <li>Email: david.rospars@orange.Fr</li>
             <li>Téléphone: 01 60 36 19 59</li>
           </ul>
+          <div className={classes.contact__content__title}>
+            <h3>Nous suivre</h3>
+            <IoShareSocialSharp
+              className={classes.contact__content__title__social}
+            />
+          </div>
+          <div className={classes.contact__content__socialNetwork}>
+            <ul>
+              <li>
+                <a
+                  href="https://instagram.com/fdm_montevrain?igshid=YmMyMTA2M2Y="
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiFillInstagram
+                    className={classes.contact__content__socialNetwork__logo}
+                  />
+                  <span>Notre Instagram</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://fr-fr.facebook.com/francilienne.miroiterie"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaFacebookSquare
+                    className={classes.contact__content__socialNetwork__logo}
+                  />
+                  <span>Notre Facebook</span>
+                </a>
+              </li>
+            </ul>
+          </div>
           <div className={classes.contact__content__title}>
             <h3>Nous trouver</h3>
             <SiGooglemaps className={classes.contact__content__title__img} />

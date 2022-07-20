@@ -30,6 +30,29 @@
         left: 15px;
         font-size: 2em;
       }
+      &__social {
+        position: relative;
+        top: 28px;
+        left: 5px;
+        font-size: 1.7em;
+      }
+    }
+    &__socialNetwork {
+      &__logo {
+        position: relative;
+        top: 4px;
+        font-size: 1.3em;
+      }
+      span {
+        padding-left: 0.3em;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        &:hover {
+          color: $primary;
+        }
+      }
     }
     &__form {
       display: flex;

@@ -10,6 +10,8 @@ import Verandas from "./pages/Verandas";
 import CGV from "./pages/CGV";
 import LegalMentions from "./pages/LegalMentions";
 import Avis from "./pages/Avis";
+import Security from "./pages/Security";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route exact path="/avis-eldo" element={<Avis />} />
           <Route exact path="/conditions-generales-ventes" element={<CGV />} />
           <Route exact path="/mentions-legales" element={<LegalMentions />} />
+          <Route exact path="/securitee" element={<Security />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
     </Router>
