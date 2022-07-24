@@ -10,9 +10,12 @@ const Accueil = () => {
       <div className={classes.home__content}>
         <Fade left>
           <div className={classes.home__content__title}>
-            <h2>
-              Miroiterie | Stores | Fenêtres | Volets | Vérandas | Pergolas
-            </h2>
+            <p>
+              <h2>
+                MIROITERIE | STORES | FENÊTRES | VOLETS | VÉRANDAS | PERGOLAS
+              </h2>
+              POSE SUR TOUTE LA RÉGION ÎLE DE FRANCE
+            </p>
           </div>
           <div className={classes.home__content__banner}>
             <img
@@ -69,7 +72,7 @@ const Accueil = () => {
               <h4>Où opérons-nous ?</h4>
               Nous opérons sur un large périmètre couvrant toute l’île de
               France, et sommes ponctuellement amenés à répondre pour des
-              opérations à niveau national.
+              opérations à un niveau national.
               <br />A 5kms de Disney Land Paris Proximité immédiate Autoroute A4
               / Francilienne A104 / A1
             </p>
@@ -95,6 +98,53 @@ const Accueil = () => {
           height="auto"
           source="medias/toutes-gammes-mp4.mp4"
         />
+        <Fade right>
+          <div className={classes.home__content__title}>
+            <h3>Nos certifications et habilitations</h3>
+          </div>
+          <div className={classes.home__content__qual}>
+            <a
+              href="/medias/certif-qualibat-rge.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/medias/logo-qualibat-rge.png"
+                alt="logo certification qualibat rge"
+              />
+            </a>
+            <a
+              href="/medias/habilitation-amiante.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/medias/logo-amiante.png"
+                alt="logo habilitation amiante"
+              />
+            </a>
+            <a
+              href="/medias/attestation-ECHAFAUDAGE.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/medias/logo-echafaudage.jpg"
+                alt="logo attestation echafaudage"
+              />
+            </a>
+            <a
+              href="/medias/Habilitation-Electrique.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/medias/logo-habilitation-electrique-300x300.png"
+                alt="logo habilitation electrique"
+              />
+            </a>
+          </div>
+        </Fade>
         <Fade bottom>
           <div className={classes.home__content__title}>
             <h3>Nos produits</h3>

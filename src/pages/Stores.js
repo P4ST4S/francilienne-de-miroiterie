@@ -9,7 +9,9 @@ const Stores = () => {
       <div className={classes.stores__content}>
         <div className={classes.stores__content__title}>
           <Fade left>
-            <h2>Stores | Volets</h2>
+            <p>
+              <h2>Stores | Volets</h2>
+            </p>
           </Fade>
         </div>
 

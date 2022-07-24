@@ -8,7 +8,9 @@ const Fenetres = () => {
       <div className={classes.fenetres__content}>
         <div className={classes.fenetres__content__title}>
           <Fade left>
-            <h2>Fenêtres | Portes-Fenêtres | Portes</h2>
+            <p>
+              <h2>Fenêtres | Portes-Fenêtres | Portes</h2>
+            </p>
           </Fade>
         </div>
         <div className={classes.fenetres__content__description__right}>

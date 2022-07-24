@@ -51,7 +51,9 @@
           li {
             max-width: 200px;
             img {
-              height: 80px;
+              height: 70px;
+              max-width: 300px;
+              border-radius: $borderRadius;
             }
             a {
               text-decoration: none;

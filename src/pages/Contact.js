@@ -13,9 +13,13 @@ const Contact = () => {
   return (
     <div className={classes.Contact}>
       <div className={classes.contact__content}>
-        <h1>Nous contacter</h1>
+        <p>
+          <h1>Nous contacter</h1>
+        </p>
         <div className={classes.contact__content__form}>
-          <Form />
+          <p>
+            <Form />
+          </p>
         </div>
         <Fade left>
           <div className={classes.contact__content__title}>
@@ -23,7 +27,7 @@ const Contact = () => {
             <GrContactInfo className={classes.contact__content__title__cont} />
           </div>
           <ul>
-            <li>Email: david.rospars@orange.Fr</li>
+            <li>Email: fdm.contact@francilienne-de-miroiterie.fr</li>
             <li>Téléphone: 01 60 36 19 59</li>
           </ul>
           <div className={classes.contact__content__title}>

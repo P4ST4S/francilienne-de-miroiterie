@@ -77,7 +77,13 @@ const Footer = () => {
           <div className={classes.footer__content__row__column}>
             <ul>
               <li>
-                <img src="medias/logo-qualibat.png" alt="Logo Qualibat" />
+                <a
+                  href="https://www.veranda-veranco.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src="medias/logo-veranco.jpg" alt="Logo veranco" />
+                </a>
               </li>
               <li>
                 <a
