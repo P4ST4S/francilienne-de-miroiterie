@@ -1,5 +1,5 @@
 <h1>FRANCILIENNE DE MIROITERIE REACT APP</h1>
-<hr><p>Official repository Github of the website of the company FRANCILIENNE DE MIROITERIE.</p><h2>General Information</h2>
+<hr><p>Official repository Github for the website of the company FRANCILIENNE DE MIROITERIE.</p><h2>General Information</h2>
 <hr><ul>
 <li>Site created during my internship at the end of my first year of study. The goal is to make a functional site to attract a new type of clientele.</li>
 </ul><ul>
