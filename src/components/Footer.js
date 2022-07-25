@@ -56,11 +56,11 @@ const Footer = () => {
                   Stores et Volets
                 </NavLink>
               </li>
-              {/* <li>
+              <li>
                 <NavLink exact to="verandas-pergolas">
                   Verandas et Pergolas
                 </NavLink>
-              </li> */}
+              </li>
               <li>
                 <NavLink exact to="/contact">
                   Nous contacter

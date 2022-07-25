@@ -81,7 +81,7 @@ const Header = () => {
                   STORES VOLETS
                 </NavLink>
               </li>
-              {/* <li>
+              <li>
                 <NavLink
                   exact
                   to="/verandas-pergolas"
@@ -89,7 +89,7 @@ const Header = () => {
                 >
                   VERANDAS PERGOLAS
                 </NavLink>
-              </li> */}
+              </li>
             </ul>
             <button onClick={contactClickHandler}>Contact</button>
           </nav>

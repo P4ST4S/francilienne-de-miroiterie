@@ -6,9 +6,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 3em;
+    @include breakpoint(md) {
+      padding: 3em;
+    }
     &__icons {
-      font-size: 6rem;
+      font-size: 4rem;
+      @include breakpoint-low(md) {
+        font-size: 6rem;
+      }
       ul {
         display: flex;
         flex-direction: column;
