@@ -13,15 +13,18 @@
   align-items: center;
   &__content {
     position: relative;
-    padding: 32px;
+    @include breakpoint(md) {
+      padding: 32px;
+      max-width: calc(100vw / 2);
+      background-color: $light;
+    }
     width: 100%;
-    max-width: 640px;
-    background-color: $light;
+    max-width: calc(100vw / 1.2);
     &__closeBtn {
       position: absolute;
       top: 16px;
       right: 16px;
-      border: none;
+      border: 1px solid $dark;
       padding: 0.5em;
 
       background: linear-gradient(rgba($primary, 0.5), $primary);
@@ -32,6 +35,9 @@
       &:active {
         color: rgba($red, 0.2);
       }
+    }
+    img {
+      width: 100%;
     }
   }
 }

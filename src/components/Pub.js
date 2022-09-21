@@ -12,9 +12,7 @@ const Pub = (props) => {
         >
           Fermer
         </button>
-        {/*Insert pub content here*/}
-        <h2>PUB</h2>
-        <p>Pub content here</p>
+        <img src="medias/BandeauPUB.jpg" alt="pop-up pub" />
       </div>
     </div>
   ) : (
