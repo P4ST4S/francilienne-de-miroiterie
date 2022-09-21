@@ -12,6 +12,9 @@ import LegalMentions from "./pages/LegalMentions";
 import Avis from "./pages/Avis";
 import Security from "./pages/Security";
 import NotFound from "./pages/NotFound";
+import ContactMentions from "./pages/ContactMentions";
+import PDP from "./pages/PDP";
+import Cookies from "./pages/Cookies";
 
 function App() {
   return (
@@ -28,6 +31,13 @@ function App() {
           <Route exact path="/conditions-generales-ventes" element={<CGV />} />
           <Route exact path="/mentions-legales" element={<LegalMentions />} />
           <Route exact path="/securitee" element={<Security />} />
+          <Route
+            exact
+            path="/politique-des-donnees-personnelles"
+            element={<PDP />}
+          />
+          <Route exact path="/politique-cookies" element={<Cookies />} />
+          <Route exact path="/contact/mentions" element={<ContactMentions />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

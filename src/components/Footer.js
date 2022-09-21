@@ -113,6 +113,14 @@ const Footer = () => {
             <NavLink exact to="/mentions-legales">
               Mentions Légales
             </NavLink>
+            &nbsp;|&nbsp;
+            <NavLink exact to="/politique-des-donnees-personnelles">
+              Politique de Protection des Données Personnelles
+            </NavLink>
+            &nbsp;|&nbsp;
+            <NavLink exact to="/politique-cookies">
+              Politique des Cookies
+            </NavLink>
           </p>
         </div>
       </div>

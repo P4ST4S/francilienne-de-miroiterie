@@ -1,0 +1,44 @@
+@import "../index.scss";
+
+.pdp {
+  &__content {
+    padding: 1em;
+    summary {
+      padding: 2rem;
+      h2 {
+        text-decoration: underline;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        &:hover {
+          color: $primary;
+        }
+        &:active {
+          background-color: rgba($primary, 0.3);
+        }
+      }
+    }
+    &__mainOl {
+      font-weight: 600;
+      h3 {
+        font-weight: 600;
+      }
+      p {
+        font-weight: normal;
+        padding: 0.5rem;
+        q {
+          font-style: italic;
+        }
+      }
+      h4 {
+        padding-top: 10px;
+        text-decoration: underline;
+        font-weight: 600;
+      }
+      span {
+        font-weight: bolder;
+      }
+    }
+  }
+}

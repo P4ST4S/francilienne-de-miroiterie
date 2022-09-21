@@ -1,0 +1,42 @@
+@import "../index.scss";
+
+.cookie {
+  &__content {
+    padding: 1em;
+    summary {
+      padding: 2rem;
+      a {
+        text-decoration: none;
+        color: inherit;
+        &:hover {
+          color: $primary;
+        }
+        &:active {
+          background-color: rgba($primary, 0.3);
+        }
+      }
+    }
+    &__borderBox {
+      border: 0.1em solid $dark;
+      margin-bottom: 25px;
+    }
+    &__mainOl {
+      &__ulPres {
+        padding: 0;
+        list-style: none;
+        padding-bottom: 10px;
+      }
+      font-weight: 600;
+      h3 {
+        font-weight: 600;
+      }
+      p {
+        font-weight: normal;
+        padding: 0.5rem;
+        q {
+          font-style: italic;
+        }
+      }
+    }
+  }
+}

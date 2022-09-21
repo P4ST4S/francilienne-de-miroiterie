@@ -12,6 +12,34 @@ const LegalMentions = () => {
           <h2>Sommaires :</h2>
           <ol>
             <li>
+              <AnchorLink href="#6">Présentation du site</AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#7">Obligations de l'internaute</AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#8">Propriété intellectuelle</AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#9">
+                Accès aux sites & Responsabilité
+              </AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#10">Hyperliens</AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#11">Cookies</AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#12">
+                Protection des données à caractère personnel
+              </AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#0">Préambule</AnchorLink>
+            </li>
+            <li>
               <AnchorLink href="#1">Informations légales</AnchorLink>
             </li>
             <li>
@@ -51,6 +79,200 @@ const LegalMentions = () => {
             </li>
           </ol>
         </summary>
+        <h3 id="0">Préambule</h3>
+        <p>
+          La société Francilienne de Miroiterie (« La Francilienne de Miroiterie
+          ») exploite le site internet{" "}
+          <a href="https://francilienne-de-miroiterie.com/">
+            https://francilienne-de-miroiterie.com/
+          </a>
+          (le « Site »). Toute personne utilisant le Site (l’« Internaute »)
+          s’engage à respecter les dispositions des présentes.
+        </p>
+        <br />
+        <h3 id="6">Présentation du site</h3>
+        <p>
+          La Francilienne de Miroiterie est un site d’informations de la société
+          La Francilienne de Miroiterie. La Francilienne de Miroiterie se
+          réserve le droit, sans préavis et à son entière discrétion, de mettre
+          fin ou de modifier tout ou partie du Site.
+        </p>
+        <br />
+        <h3 id="7">Obligations de l'internaute</h3>
+        <p>
+          L’Internaute s’engage à :
+          <ul>
+            <li>
+              • Ne pas porter atteinte et/ou tenter de porter atteinte au bon
+              fonctionnement du Site, y compris à son contenu, de quelque
+              manière que ce soit ;
+            </li>
+            <li>
+              • Ne pas reproduire, utiliser ou représenter sans l’accord exprès
+              de La Francilienne de Miroiterie, qui en détient la propriété, le
+              Site et son contenu ;
+            </li>
+            <li>
+              • Ne pas télécharger, afficher ou transmettre, via le Site, tout
+              matériel :
+            </li>
+            <li>
+              • de nature à restreindre ou interrompre l’accès d’un autre
+              Internaute au Site ;
+            </li>
+            <li>
+              • frauduleux, illégal, abusif, diffamatoire, obscène, incitant à
+              la haine ou portant atteinte à la vie privée ;
+            </li>
+            <li>
+              • constituant ou encourageant une conduite susceptible de
+              violation des lois ;
+            </li>
+            <li>• violant ou portant atteinte aux droits d’un tiers ;</li>
+            <li>
+              • contenant un virus ou un logiciel malveillant, permettant
+              notamment de collecter ou d’extraire des données de manière
+              automatique ;
+            </li>
+            <li>
+              • constituant un contenu promotionnel ou publicitaire non
+              sollicité ou non autorisé tel que, mais sans s’y limiter, un spam,
+              une chaîne de courriels, etc.
+            </li>
+          </ul>
+        </p>
+        <br />
+        <p>
+          La Francilienne de Miroiterie ne saurait être responsable de
+          l’utilisation du Site par des mineurs de moins de 15 ans ayant
+          notamment conduit à la collecte de leurs données personnelles.
+        </p>
+        <br />
+        <h3 id="8">Propriété intellectuelle</h3>
+        <p>
+          L’ensemble du contenu du Site est protégé par la législation
+          applicable notamment en matière de droit d’auteur, de droit des
+          dessins et modèles, de droit des marques, de concurrence déloyale et
+          parasitisme.
+        </p>
+        <br />
+        <p>
+          La Francilienne de Miroiterie est le seul et unique titulaire des
+          droits d’exploitation portant sur les éléments de propriété
+          intellectuelle du Site et notamment sur les articles.
+        </p>
+        <br />
+        <p>
+          L’Internaute n’est pas autorisé à reproduire, exploiter, rediffuser ou
+          utiliser à quelque titre que ce soit, même partiellement, des éléments
+          du Site.
+        </p>
+        <br />
+        <p>
+          En application de l’article L.122-4 du Code de la propriété
+          intellectuelle, toute représentation ou toute reproduction non
+          expressément autorisée, ou à un usage autre que strictement privé, par
+          quelque moyen que ce soit, constitue un acte de contrefaçon sanctionné
+          par la loi.
+        </p>
+        <br />
+        <h3 id="9">Accès aux sites & Responsabilité</h3>
+        <p>
+          Le Site est accessible par le biais du réseau Internet. L’accès au
+          Site est gratuit. Toutefois, le prix de la connexion à Internet est à
+          la charge de l’Internaute. Il appartient à l’Internaute de s’assurer
+          qu’il dispose d’une protection adéquate contre les virus
+          informatiques.
+        </p>
+        <br />
+        <p>
+          L’Internaute reconnaît que La Francilienne de Miroiterie ne saurait
+          être responsable de l’intrusion par des tiers dans son système
+          informatique et/ou de l’interception par des tiers des transmissions
+          de données effectuées à l’occasion de l’utilisation par l’Internaute
+          du Site.
+        </p>
+        <br />
+        <p>
+          La Francilienne de Miroiterie ne garantit pas un accès continu ou sans
+          difficulté technique au Site et au contenu des informations présentées
+          sur ledit Site. L’accès pourra notamment être interrompu ou suspendu
+          aux fins de maintenance, d’actions correctives ou de difficultés liées
+          aux réseaux de télécommunication.
+        </p>
+        <br />
+        <p>
+          La Francilienne de Miroiterie ne saurait en aucun cas être tenu
+          responsable du contenu des articles publiés sur le Site. Les articles
+          rédigés par les scientifiques sont des cas d’études et ne doivent en
+          aucun cas être assimilés à des diagnostics ou des conseils médicaux
+          pouvant être appliqués à chacun. Pour toute décision relative à sa
+          santé, l’Internaute doit impérativement consulter un médecin. La
+          responsabilité de La Francilienne de Miroiterie ne pourra en aucun cas
+          être engagée pour tout dommage survenu à un Internaute à la suite de
+          son interprétation des articles publiés sur le Site.
+        </p>
+        <br />
+        <h3 id="10">Hyperliens</h3>
+        <p>
+          L’Internaute reconnait ne pas être autorisé à créer et/ou maintenir un
+          lien vers le Site sans l’accord préalable de La Francilienne de
+          Miroiterie.
+        </p>
+        <br />
+        <p>
+          Le Site peut être accessible depuis d’autres sites internet, ou
+          contenir des liens hypertextes menant vers d’autres sites internet,
+          notamment vers les réseaux sociaux, sans que La Francilienne de
+          Miroiterie ne puisse être tenu responsable du contenu de ces derniers.
+        </p>
+        <br />
+        <h3 id="11">Cookies</h3>
+        <p>
+          Un cookie est un fichier informatique, stocké sur le disque dur de
+          l’ordinateur de l’Internaute et qui permet de signaler qu’il a visité
+          le Site Internet.
+        </p>
+        <br />
+        <p>
+          La Francilienne de Miroiterie a recours à des cookies « analytiques »
+          lui permettant d’identifier le comportement de l’Internaute sur le
+          Site (en analysant notamment les pages du Site les plus visitées ou
+          encore le taux de rebond).
+        </p>
+        <br />
+        <p>
+          L’utilisation de cookies est subordonnée au recueil par La
+          Francilienne de Miroiterie de l’accord préalable de l’Internaute.
+          L’Internaute peut refuser le dépôt des cookies sur son terminal.
+        </p>
+        <br />
+        <p>
+          En tout état de cause, les cookies sont conservés pendant une durée
+          maximale de 13 mois suivant la date à laquelle l’Internaute a consenti
+          au dépôt par La Francilienne de Miroiterie de cookies sur son
+          terminal.
+        </p>
+        <br />
+        <p>
+          Pour toute information complémentaire veuillez-vous référer à notre
+          politique cookies disponibles sur notre site ou à l’adresse suivante :{" "}
+          <a href="https://francilienne-de-miroiterie.com/politique-cookies">
+            https://francilienne-de-miroiterie.com/politique-cookies
+          </a>
+        </p>
+        <br />
+        <h3 id="12">Protection des données à caractère personnel</h3>
+        <p>
+          La Francilienne de Miroiterie a mis en place une politique de
+          protection de vos données à caractère personnelles. Nous vous invitons
+          à la consulter directement sur notre site web ou à l’adresse suivante
+          :{" "}
+          <a href="https://francilienne-de-miroiterie.com/politique-des-donnees-personnelles">
+            https://francilienne-de-miroiterie.com/politique-des-donnees-personnelles
+          </a>
+        </p>
+        <br />
         <h3 id="1">Informations légales</h3>
         <p>
           Le site www.francilienne-de-miroiterie.com est édité par : La société
@@ -122,95 +344,6 @@ const LegalMentions = () => {
         <p>
           L&#39;intégralité des images et photos de ce site web ne sont pas
           contractuelles.
-        </p>
-        <br />
-        <h3 id="6">Propriété intellectuelle</h3>
-        <p>
-          Le Site est la propriété exclusive de la société Francilienne de
-          Miroiterie, seule habilitée à utiliser et exploiter les droits de
-          propriété intellectuelle et droits de la personnalité attachés à ce
-          site, notamment les marques, dessins et modèles, droits d&#39;auteur
-          et droit à l&#39;image, à titre originaire ou par l&#39;effet
-          d&#39;une cession ou d&#39;une licence d&#39;exploitation.
-        </p>
-        <br />
-        <p>
-          L&#39;usage de tout ou partie du Site
-          www.francilienne-de-miroiterie.com, notamment par téléchargement,
-          reproduction, transmission ou représentation à d&#39;autres fins que
-          pour usage personnel et privé dans un but non commercial est
-          strictement interdit.
-        </p>
-        <br />
-        <p>
-          Les bases de données figurant sur le Site sont protégées par le Code
-          de la propriété intellectuelle et est sanctionnée toute extraction ou
-          réutilisation qualitativement ou quantitativement substantielle du
-          contenu des bases de données.
-        </p>
-        <br />
-        <h3 id="7">Liens hypertextes vers d&#39;autres sites</h3>
-        <p>
-          La création de liens hypertextes vers le Site ne peut être faite
-          qu&#39;avec l&#39;autorisation écrite et préalable de la société
-          Francilienne de Miroiterie qui pourra être révoquée à tout moment. La
-          société Francilienne de Miroiterie, décline toute responsabilité
-          concernant le contenu des sites liés au Site.
-        </p>
-        <br />
-        <h3 id="8">Responsabilité de Francilienne de Miroiterie</h3>
-        <p>
-          La société Francilienne de Miroiterie met tout en œuvre pour offrir
-          aux utilisateurs des informations ou des outils disponibles et
-          vérifiés mais ne sauraient être tenus pour responsables des erreurs,
-          d’une absence de disponibilité des fonctionnalités ou de la présence
-          de virus ou autres infections logiques sur leurs sites.
-        </p>
-        <br />
-        <p>
-          Le Site est accessible 24 heures sur 24 et 7 jours sur 7. L’éditeur ne
-          saurait toutefois être tenu pour responsables des discontinuités du
-          site et de leurs services, qu’elles soient volontaires ou non. Les
-          informations fournies le sont à titre indicatif et ne sauraient
-          dispenser l’utilisateur d’une analyse complémentaire et personnalisée.
-        </p>
-        <br />
-        <p>
-          Le visiteur est informé que l&#39;accès au Site pourra être interrompu
-          à tout moment par la société Francilienne de Miroiterie pour des
-          raisons de maintenance, de sécurité ou toute autre contrainte
-          technique.
-        </p>
-        <br />
-        <h3 id="9">Droit applicable</h3>
-        <p>
-          Les présentes conditions sont régies par le droit français. Les
-          juridictions françaises sont seules compétentes pour connaître de tout
-          litige se rapportant directement ou indirectement à l&#39;accès au
-          présent Site ou à son utilisation.
-        </p>
-        <p>
-          La version originale de ces conditions est rédigée en français. En cas
-          de conflit ou d&#39;incohérence entre la version française et
-          celle-ci, la version française prévaudra.
-        </p>
-        <br /> <h3 id="10">Modification des mentions légales</h3>
-        <p>
-          L’éditeur se réserve le droit de modifier et d’actualiser les
-          présentes mentions légales à tout moment et sans préavis.
-        </p>
-        <p>L’utilisateur est donc invité à la consulter régulièrement.</p>
-        <p>Date de la dernière mise à jour : 11 juillet 2022</p>
-        <p>
-          Ce site est protégé par reCAPTCHA et les{" "}
-          <a
-            href="https://policies.google.com/privacy?hl=fr"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Règles de Confidentialité et Conditions d&#39;Utilisation
-          </a>{" "}
-          s&#39;appliquent.
         </p>
       </div>
     </div>

@@ -70,5 +70,22 @@
       font-weight: bolder;
       color: green;
     }
+
+    &__mentions {
+      text-align: center;
+      @include breakpoint-low(md) {
+        width: 30rem;
+      }
+      @include breakpoint-mid(md) {
+        width: 45rem;
+      }
+      input {
+        top: 3px;
+        position: relative;
+        width: 1em;
+        height: 1em;
+      }
+      font-size: 1em;
+    }
   }
 }
