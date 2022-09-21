@@ -1,19 +1,49 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Fade from "react-reveal/Fade";
 import HomeLink from "../components/HomeLink";
 import classes from "../styles/pages/Accueil.module.scss";
 import Video from "../components/Video";
+import Pub from "../components/Pub";
 
 const Accueil = () => {
+  const [onMobile, setOnMobile] = useState(false);
+  const [buttonPub, setButtonPub] = useState(true);
+  const [size, setSize] = useState({
+    width: undefined,
+    height: undefined,
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  useEffect(() => {
+    if (size.width > 650) {
+      setOnMobile(false);
+    } else {
+      setOnMobile(true);
+    }
+  }, [size.width, onMobile]);
   return (
     <div className={classes.home}>
+      <Pub trigger={buttonPub} setTrigger={setButtonPub} />
       <div className={classes.home__content}>
         <Fade left>
           <div className={classes.home__content__title}>
             <p>
-              <h2>
-                MIROITERIE | STORES | FENÊTRES | VOLETS | VÉRANDAS | PERGOLAS
-              </h2>
+              {!onMobile ? (
+                <h2>
+                  MIROITERIE | STORES | FENÊTRES | VOLETS | VÉRANDAS | PERGOLAS
+                </h2>
+              ) : (
+                <h2>MIROITERIE STORES FENÊTRES VOLETS VÉRANDAS PERGOLAS</h2>
+              )}
               POSE SUR TOUTE LA RÉGION ÎLE DE FRANCE
             </p>
           </div>
