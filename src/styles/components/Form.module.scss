@@ -1,5 +1,4 @@
 @import "../index.scss";
-
 .form {
   padding: 2em;
   display: flex;
@@ -84,8 +83,40 @@
         position: relative;
         width: 1em;
         height: 1em;
+        font-weight: 1000;
       }
       font-size: 1em;
+      &__accept {
+        cursor: pointer;
+        background: linear-gradient(
+          rgba($green, 0.5),
+          rgba($green, 0.8),
+          $green
+        );
+        font-weight: 900;
+        border: none;
+        &:hover {
+          background: linear-gradient(
+            rgba($green, 0.3),
+            rgba($green, 0.5),
+            rgba($green, 0.8)
+          );
+        }
+      }
+      &__decline {
+        background: linear-gradient(rgba($red2, 0.5), rgba($red2, 0.8), $red2);
+        font-weight: 900;
+        text-decoration: underline;
+        border: none;
+        cursor: pointer;
+        &:hover {
+          background: linear-gradient(
+            rgba($red2, 0.3),
+            rgba($red2, 0.5),
+            rgba($red2, 0.8)
+          );
+        }
+      }
     }
   }
 }

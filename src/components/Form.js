@@ -4,9 +4,10 @@ import Zoom from "react-reveal/Zoom";
 import { send } from "emailjs-com";
 import classes from "../styles/components/Form.module.scss";
 import ReCAPTCHA from "react-google-recaptcha";
-import { NavLink } from "react-router-dom";
+import ContactMentionsPopup from "./ContactMentionsPopup";
 
 const Form = () => {
+  const [popup, setPopup] = useState(false);
   const [successSubmit, setSuccessSubmit] = useState(false);
   const [verified, setVerified] = useState(false);
   const [check, setCheck] = useState(false);
@@ -22,8 +23,9 @@ const Form = () => {
   const handleVerify = () => {
     setVerified((content) => !content);
   };
-  const handleCheck = () => {
-    setCheck((content) => !content);
+  const handlePupup = () => {
+    setPopup(true);
+    console.log(popup);
   };
 
   return (
@@ -122,18 +124,22 @@ const Form = () => {
                 {successSubmit ? "Formulaire envoyé avec succès !" : ""}
               </div>
             </Zoom>
-            <div className={classes.form__content__mentions}>
-              <br />
-              <input
-                onChange={handleCheck}
-                type="checkbox"
-                disabled={successSubmit}
-              />{" "}
-              <NavLink exact to="/contact/mentions">
-                J'ai lu et j'accepte les mentions d'informations relatives au
-                recueil de mes données à caractère personnel
-              </NavLink>
-            </div>
+            <input
+              className={
+                check
+                  ? classes.form__content__mentions__accept
+                  : classes.form__content__mentions__decline
+              }
+              type="button"
+              onClick={handlePupup}
+              value="Lire les mentions du formulaire de contact"
+            />
+
+            <ContactMentionsPopup
+              trigger={popup}
+              setTrigger={setPopup}
+              setCheck={setCheck}
+            />
             <ReCAPTCHA
               sitekey="6LeLVMYgAAAAAHM1VE4t76V_qswlduIUPPu9cZO7"
               onChange={handleVerify}

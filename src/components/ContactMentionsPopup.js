@@ -1,22 +1,25 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-import classes from "../styles/pages/ContactMentions.module.scss";
+import classes from "../styles/components/ContactMentionsPopup.module.scss";
 
-const ContactMentions = () => {
-  const navigate = useNavigate();
-
-  const contactClickHandler = () => {
-    navigate("/contact");
+const ContactMentionsPopup = (props) => {
+  const onAccept = () => {
+    props.setCheck(true);
+    props.setTrigger(false);
   };
-  return (
-    <div className={classes.mentions}>
-      <div className={classes.mentions__content}>
-        <div className={classes.mentions__content__title}>
-          <button onClick={contactClickHandler}>Retour</button>
-          <h1>Mentions formulaire de contact</h1>
-        </div>
-        <div className={classes.mentions__content__text}>
+  const onDecline = () => {
+    props.setCheck(false);
+    props.setTrigger(false);
+  };
+  return props.trigger ? (
+    <div className={classes.popup}>
+      <div className={classes.popup__content}>
+        <div className={classes.popup__content__text}>
+          <p>
+            J'ai lu et j'accepte les mentions d'informations relatives au
+            recueil de mes données à caractère personnel ci-dessous :
+          </p>
           <p>
             Vos données à caractère personnel sont traitées par la société
             Francilienne de Miroiterie en sa qualité de responsable de
@@ -51,9 +54,25 @@ const ContactMentions = () => {
             </NavLink>
           </p>
         </div>
+        <div className={classes.popup__content__input}>
+          <input
+            type="button"
+            className={classes.popup__content__input__accept}
+            onClick={onAccept}
+            value="Accepter"
+          />{" "}
+          <input
+            type="button"
+            className={classes.popup__content__input__decline}
+            onClick={onDecline}
+            value="Refuser"
+          />
+        </div>
       </div>
     </div>
+  ) : (
+    ""
   );
 };
 
-export default ContactMentions;
+export default ContactMentionsPopup;
