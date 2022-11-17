@@ -99,6 +99,22 @@ const Form = () => {
                 <></>
               )}
             </div>
+            <div className={classes.form__content__name}>
+              <input
+                type="text"
+                placeholder="Ville*"
+                autoComplete="none"
+                {...register("town", { required: true })}
+                disabled={successSubmit}
+              />
+              {errors.name ? (
+                <div className={classes.form__content__error}>
+                  Entrez votre ville
+                </div>
+              ) : (
+                <></>
+              )}
+            </div>
             <div className={classes.form__content__message}>
               <input
                 type="text"
@@ -133,6 +149,7 @@ const Form = () => {
               type="button"
               onClick={handlePupup}
               value="Lire les mentions du formulaire de contact"
+              disabled={successSubmit}
             />
 
             <ContactMentionsPopup

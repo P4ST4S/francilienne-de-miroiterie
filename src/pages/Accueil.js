@@ -32,7 +32,7 @@ const Accueil = () => {
   }, [size.width, onMobile]);
   return (
     <div className={classes.home}>
-      <Pub trigger={buttonPub} setTrigger={setButtonPub} />
+      {/*<Pub trigger={buttonPub} setTrigger={setButtonPub} />*/}
       <div className={classes.home__content}>
         <Fade left>
           <div className={classes.home__content__title}>
