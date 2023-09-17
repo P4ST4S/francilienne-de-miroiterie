@@ -48,12 +48,6 @@ The francilienne-de-miroiterie codebase is for a React-based website that showca
 
 ---
 
-## ⚙️ Features
-
-HTTPStatus Exception: 400
-
----
-
 ## 📂 Project Structure
 
 ---
