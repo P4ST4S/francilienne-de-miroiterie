@@ -126,9 +126,8 @@ HTTPStatus Exception: 400
 
 Before you begin, ensure that you have the following prerequisites installed:
 
-> - `ℹ️ Requirement 1`
-> - `ℹ️ Requirement 2`
-> - `ℹ️ ...`
+> - [Node JS](https://nodejs.org/en/)
+> - [NPM (Node Package Manager)](https://www.npmjs.com/)
 
 ### 📦 Installation
 
@@ -166,9 +165,7 @@ npm test
 
 ## 🗺 Roadmap
 
-> - [x] `ℹ️  Task 1: Implement X`
-> - [ ] `ℹ️  Task 2: Refactor Y`
-> - [ ] `ℹ️ ...`
+No future plans at the moment.
 
 ---
 
