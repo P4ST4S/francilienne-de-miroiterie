@@ -43,7 +43,7 @@
 
 ## 📍 Overview
 
-The francilienne-de-miroiterie codebase is for a React-based website that showcases the work and services of a glass and mirror installation company. It includes various pages, such as Accueil (Home), Fenêtres (Windows), Stores (Storefronts), Vérandas (Verandas), and Contact. The project offers a visually appealing and interactive design, smooth navigation, form submission with data validation, review and advertisement integration, and legal policy pages. Its value proposition lies in providing an online platform for potential customers to explore the company's expertise and easily contact them for inquiries or services.
+The francilienne-de-miroiterie codebase is for a React-based website that showcases the work and services of a glass and mirror installation company. It includes various pages, such as Accueil (Home), Fenêtres (Windows), Stores (Storefronts), Vérandas (Verandas), and Contact. The project offers a visually appealing and interactive design, smooth navigation, form submission with data validation, review and advertisement integration, and legal policy pages. Its value proposition lies in providing an online platform for potential customers to explore the company's expertise and easily contact them for inquiries or services. The website is now live at [francilienne-de-miroiterie.com](https://www.francilienne-de-miroiterie.com).
 
 ---
 
