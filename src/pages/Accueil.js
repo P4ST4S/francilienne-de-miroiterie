@@ -38,11 +38,9 @@ const Accueil = () => {
           <div className={classes.home__content__title}>
             <p>
               {!onMobile ? (
-                <h2>
-                  MIROITERIE | STORES | FENÊTRES | VOLETS | VÉRANDAS | PERGOLAS
-                </h2>
+                <h2>MIROITERIE | STORES | FENÊTRES | VOLETS</h2>
               ) : (
-                <h2>MIROITERIE STORES FENÊTRES VOLETS VÉRANDAS PERGOLAS</h2>
+                <h2>MIROITERIE STORES FENÊTRES VOLETS</h2>
               )}
               POSE SUR TOUTE LA RÉGION ÎLE DE FRANCE
             </p>

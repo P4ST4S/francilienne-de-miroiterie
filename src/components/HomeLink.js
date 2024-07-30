@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import { MdStorefront } from "react-icons/md";
 import { TbWindow } from "react-icons/tb";
-import { FaWarehouse } from "react-icons/fa";
+// import { FaWarehouse } from "react-icons/fa";
 import { GiMirrorMirror } from "react-icons/gi";
 
 import classes from "../styles/components/HomeLink.module.scss";
@@ -35,13 +35,13 @@ const HomeLink = () => {
               <h5>STORES</h5>
               <h5>VOLETS</h5>
             </li>
-            <li>
+            {/* <li>
               <NavLink exact to="/verandas-pergolas">
                 <FaWarehouse />
               </NavLink>
               <h5>VERANDAS</h5>
               <h5>PERGOLAS</h5>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
