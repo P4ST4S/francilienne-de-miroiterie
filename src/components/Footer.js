@@ -56,11 +56,11 @@ const Footer = () => {
                   Stores et Volets
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink exact to="verandas-pergolas">
                   Verandas et Pergolas
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink exact to="/contact">
                   Nous contacter
@@ -76,7 +76,7 @@ const Footer = () => {
           {/* Column 3 */}
           <div className={classes.footer__content__row__column}>
             <ul>
-              <li>
+              {/* <li>
                 <a
                   href="https://www.veranda-veranco.com"
                   target="_blank"
@@ -84,7 +84,7 @@ const Footer = () => {
                 >
                   <img src="medias/logo-veranco.jpg" alt="Logo veranco" />
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="https://www.storistes-de-france.com"

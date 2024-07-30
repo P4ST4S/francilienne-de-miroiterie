@@ -6,7 +6,7 @@ import Fenetres from "./pages/Fenetres";
 import Stores from "./pages/Stores";
 import Accueil from "./pages/Accueil";
 import Miroiterie from "./pages/Miroiterie";
-import Verandas from "./pages/Verandas";
+// import Verandas from "./pages/Verandas"; Removed for now
 import CGV from "./pages/CGV";
 import LegalMentions from "./pages/LegalMentions";
 import Avis from "./pages/Avis";
@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Accueil />} />
           <Route exact path="/fenetres-portes" element={<Fenetres />} />
-          <Route exact path="/verandas-pergolas" element={<Verandas />} />
+          {/* <Route exact path="/verandas-pergolas" element={<Verandas />} /> */}
           <Route exact path="/miroiterie" element={<Miroiterie />} />
           <Route exact path="/stores-volets" element={<Stores />} />
           <Route exact path="/contact" element={<Contact />} />
