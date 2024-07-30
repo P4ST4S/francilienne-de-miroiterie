@@ -47,9 +47,14 @@ const Header = () => {
       </div>
       <header className={classes.header}>
         <div className={classes.header__content}>
-          <h2 className={classes.header__content__logo}>
-            FRANCILIENNE DE MIROITERIE
-          </h2>
+          <NavLink
+            exact
+            to="/"
+            onClick={changeMenuHandler}
+            className={classes.header__content__logo}
+          >
+            <h2>FRANCILIENNE DE MIROITERIE</h2>
+          </NavLink>
 
           <nav
             className={`${classes.header__content__nav} ${

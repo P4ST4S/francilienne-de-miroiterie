@@ -3,11 +3,11 @@ import Fade from "react-reveal/Fade";
 import HomeLink from "../components/HomeLink";
 import classes from "../styles/pages/Accueil.module.scss";
 import Video from "../components/Video";
-import Pub from "../components/Pub";
+// import Pub from "../components/Pub";
 
 const Accueil = () => {
   const [onMobile, setOnMobile] = useState(false);
-  const [buttonPub, setButtonPub] = useState(true);
+  // const [buttonPub, setButtonPub] = useState(true);
   const [size, setSize] = useState({
     width: undefined,
     height: undefined,

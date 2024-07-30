@@ -31,10 +31,21 @@
     z-index: 100;
 
     &__logo {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       font-weight: bold;
       text-decoration: none;
       color: $light;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        color: $light;
+      }
+
+      &:visited {
+        text-decoration: none;
+        color: $light;
+      }
     }
 
     &__nav {

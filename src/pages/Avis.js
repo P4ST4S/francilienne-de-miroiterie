@@ -10,8 +10,15 @@ const Avis = () => {
           frameborder="0"
           height="120px"
           width="120px"
-          style="position: fixed;left: 20px;bottom: 50px;z-index:100 !important;opacity: 1"
-          class="widget-001"
+          style={{
+            position: "absolute",
+            left: "20px",
+            bottom: "50px",
+            zIndex: 100,
+            opacity: 1,
+          }}
+          title="Unique Title"
+          className="widget-001"
         ></iframe>
       </a>
     </div>

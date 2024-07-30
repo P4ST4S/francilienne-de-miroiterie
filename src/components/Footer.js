@@ -66,11 +66,12 @@ const Footer = () => {
                   Nous contacter
                 </NavLink>
               </li>
-              <li>
+              {/* Not working yet
+               <li>
                 <NavLink exact to="/avis-eldo">
                   Nos avis
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
           {/* Column 3 */}
